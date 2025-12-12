@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using funfactAPI.Modelas;
+
 namespace funfactAPI.Services
 {
-    internal class IJokeService
+    public interface IJokeService
     {
+        Joke GetRandomJoke();
     }
 }

@@ -9,7 +9,8 @@ using funfactAPI.Modelas;
 
 namespace funfactAPI.Services
 {
-    internal class IFactService
+    public interface IFactService
     {
+        Fact GetRandomFact();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace funfactAPI.Modelas
 {
-    internal class joke
+    public class Joke
     {
         public string Setup { get; set; }
         public string Punchline { get; set; }
